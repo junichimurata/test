@@ -1,0 +1,3 @@
+2014～2019
+http://api.e-stat.go.jp/rest/3.0/app/getSimpleStatsData?cdArea=11201%2C11228%2C11235%2C11239%2C11241%2C11245&cdCat03=000%2C204%2C205%2C206%2C207%2C208%2C209%2C210%2C211%2C212%2C213&cdCat01=0&appId=&lang=J&statsDataId=0003461892&metaGetFlg=Y&cntGetFlg=N&explanationGetFlg=Y&annotationGetFlg=Y&sectionHeaderFlg=1&replaceSpChars=0
+
