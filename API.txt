@@ -47,3 +47,4 @@ http://api.e-stat.go.jp/rest/3.0/app/getSimpleStatsData?cdCat01=0&cdCat02=0&cdAr
 
 2015～2019
 ページ上部の項目
+http://api.e-stat.go.jp/rest/3.0/app/getSimpleStatsData?cdCat01=000&cdArea=00000&cdCat02=001&cdCat03=01004%2C01005%2C01006%2C01007%2C01008%2C01009%2C01010%2C01011%2C01012%2C01013&cdTime=2015000000%2C2016000000%2C2017000000%2C2018000000%2C2019000000&appId=&lang=J&statsDataId=0003459020&metaGetFlg=Y&cntGetFlg=N&explanationGetFlg=Y&annotationGetFlg=Y&sectionHeaderFlg=1&replaceSpChars=0
