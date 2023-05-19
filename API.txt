@@ -6,6 +6,7 @@ csv
 http://api.e-stat.go.jp/rest/3.0/app/getSimpleStatsData?cdArea=11201%2C11228%2C11235%2C11239%2C11241%2C11245&cdTab=04&cdCat01=204%2C205%2C206%2C207%2C208%2C209%2C210%2C211%2C212%2C213&cdCat02=0&cdCat03=60000&appId=&lang=J&statsDataId=0003419945&metaGetFlg=Y&cntGetFlg=N&explanationGetFlg=Y&annotationGetFlg=Y&sectionHeaderFlg=1&replaceSpChars=0
 json
 http://api.e-stat.go.jp/rest/3.0/app/json/getStatsData?cdArea=11201%2C11228%2C11235%2C11239%2C11241%2C11245&cdTab=04&cdCat01=204%2C205%2C206%2C207%2C208%2C209%2C210%2C211%2C212%2C213&cdCat02=0&cdCat03=60000&appId=&lang=J&statsDataId=0003419945&metaGetFlg=Y&cntGetFlg=N&explanationGetFlg=Y&annotationGetFlg=Y&sectionHeaderFlg=1&replaceSpChars=0
+http://api.e-stat.go.jp/rest/3.0/app/json/getStatsData?cdArea=11201%2C11228%2C11235%2C11239%2C11241%2C11245&cdTab=04&cdCat01=204%2C205%2C206%2C207%2C208%2C209%2C210%2C211%2C212%2C213&cdCat02=0&cdCat03=60000&appId=&lang=J&statsDataId=0003419945&metaGetFlg=Y&cntGetFlg=N&explanationGetFlg=Y&annotationGetFlg=Y&sectionHeaderFlg=1&replaceSpChars=0
 xml
 http://api.e-stat.go.jp/rest/3.0/app/getStatsData?cdArea=11201%2C11228%2C11235%2C11239%2C11241%2C11245&cdTab=04&cdCat01=204%2C205%2C206%2C207%2C208%2C209%2C210%2C211%2C212%2C213&cdCat02=0&cdCat03=60000&appId=&lang=J&statsDataId=0003419945&metaGetFlg=Y&cntGetFlg=N&explanationGetFlg=Y&annotationGetFlg=Y&sectionHeaderFlg=1&replaceSpChars=0
 
@@ -30,6 +31,7 @@ http://api.e-stat.go.jp/rest/3.0/app/getSimpleStatsData?cdCat02=001&cdCat03=0100
 xml
 http://api.e-stat.go.jp/rest/3.0/app/getStatsData?cdCat02=001&cdCat03=01004%2C01005%2C01006%2C01007%2C01008%2C01009%2C01010%2C01011%2C01012%2C01013&cdTime=2014000000&cdCat01=000&appId=&lang=J&statsDataId=0003104218&metaGetFlg=Y&cntGetFlg=N&explanationGetFlg=Y&annotationGetFlg=Y&sectionHeaderFlg=1&replaceSpChars=0
 JSON
+http://api.e-stat.go.jp/rest/3.0/app/json/getStatsData?cdCat02=001&cdCat03=01004%2C01005%2C01006%2C01007%2C01008%2C01009%2C01010%2C01011%2C01012%2C01013&cdTime=2014000000&cdCat01=000&appId=&lang=J&statsDataId=0003104218&metaGetFlg=Y&cntGetFlg=N&explanationGetFlg=Y&annotationGetFlg=Y&sectionHeaderFlg=1&replaceSpChars=0
 http://api.e-stat.go.jp/rest/3.0/app/json/getStatsData?cdCat02=001&cdCat03=01004%2C01005%2C01006%2C01007%2C01008%2C01009%2C01010%2C01011%2C01012%2C01013&cdTime=2014000000&cdCat01=000&appId=&lang=J&statsDataId=0003104218&metaGetFlg=Y&cntGetFlg=N&explanationGetFlg=Y&annotationGetFlg=Y&sectionHeaderFlg=1&replaceSpChars=0
 csv
 http://api.e-stat.go.jp/rest/3.0/app/getSimpleStatsData?cdCat02=001&cdCat03=01004%2C01005%2C01006%2C01007%2C01008%2C01009%2C01010%2C01011%2C01012%2C01013&cdTime=2014000000&cdCat01=000&appId=&lang=J&statsDataId=0003104218&metaGetFlg=Y&cntGetFlg=N&explanationGetFlg=Y&annotationGetFlg=Y&sectionHeaderFlg=1&replaceSpChars=0
