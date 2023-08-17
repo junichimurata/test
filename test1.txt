@@ -1,0 +1,73 @@
+package mondai;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class VendingMachineIf {
+
+	private static final int one = 1;
+	private static final int two = 2;
+	private static final int three = 3;
+
+	private static final int orange = 160;
+	private static final int oolong = 150;
+	private static final int milk = 120;
+
+	private static final String orange_ = "オレンジジュース";
+	private static final String oolong_ = "ウーロン茶";
+	private static final String milk_ = "牛乳";
+
+	public static void main(String[] args) {
+		String input = null;
+
+		System.out.println("自動販売機「飲み物を選んでください」\n1：オレンジジュース\n2：ウーロン茶\n3：牛乳");
+
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+		try {
+			input = reader.readLine();
+			int number = Integer.parseInt(input);
+
+			int price = getPrice(number);
+			String item = getItem(number);
+
+			System.out.println("「" + item + "」" + "の値段は、" + price + "円です。");
+
+		} catch (IOException e) {
+			System.out.println("正しく入力されませんでした。");
+		} catch (NumberFormatException e) {
+			System.out.println("「" + input + "」" + "はありません。");
+		}
+
+	}
+
+	private static String getItem(int number) {
+
+		switch (number) {
+		case one:
+			return orange_;
+		case two:
+			return oolong_;
+		case three:
+			return milk_;
+		default:
+			return "?";
+		}
+	}
+
+	private static int getPrice(int number) {
+
+		switch (number) {
+		case one:
+			return orange;
+		case two:
+			return oolong;
+		case three:
+			return milk;
+		default:
+			return 0;
+		}
+	}
+
+}
